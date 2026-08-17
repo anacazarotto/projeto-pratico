@@ -170,8 +170,8 @@ Exemplo: ao sair de `1.0.0` para `1.1.0`, uma nova funcionalidade foi
 adicionada sem quebrar nada. Ao sair de `1.1.0` para `2.0.0`, houve uma 
 mudança que quebra a compatibilidade com a versão anterior.
 
-## Funcionalidade: Login de Usuários
+## Funcionalidade: Cadastro e Autenticação de Usuários (API v2)
 
-Esta seção descreve a implementação de um sistema de login, permitindo que 
-usuários cadastrados acessem a plataforma de forma autenticada, com validação 
-de e-mail e senha, incluindo mensagens de erro claras em caso de credenciais inválidas.
+Esta funcionalidade foi reestruturada para unificar cadastro e autenticação 
+em um único fluxo, alterando o formato anterior de endpoints e removendo 
+compatibilidade com a versão anterior da API.
