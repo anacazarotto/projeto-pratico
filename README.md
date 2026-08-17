@@ -174,4 +174,4 @@ mudança que quebra a compatibilidade com a versão anterior.
 
 Esta seção descreve a implementação de um sistema de login, permitindo que 
 usuários cadastrados acessem a plataforma de forma autenticada, com validação 
-de e-mail e senha.
+de e-mail e senha, incluindo mensagens de erro claras em caso de credenciais inválidas.
