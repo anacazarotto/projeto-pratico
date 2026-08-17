@@ -150,3 +150,22 @@ O repositório também permite verificar o histórico de commits, branches, Pull
 **Ana Carla Londero Cazarotto**
 
 Projeto desenvolvido para fins acadêmicos na disciplina de **Gerência e Configuração de Software**.
+
+## Versionamento Semântico
+
+Este projeto segue as práticas de **Versionamento Semântico (SemVer)**, 
+um padrão amplamente utilizado para versionar software de forma clara e previsível.
+
+O número de versão segue o formato: **MAJOR.MINOR.PATCH** (ex: 1.0.0)
+
+- **MAJOR**: incrementado quando são feitas alterações incompatíveis com 
+  versões anteriores (breaking changes), ou seja, mudanças que quebram 
+  a compatibilidade com quem já usa o projeto.
+- **MINOR**: incrementado quando novas funcionalidades são adicionadas 
+  de forma compatível com versões anteriores (sem quebrar nada que já existia).
+- **PATCH**: incrementado quando são feitas correções de bugs que também 
+  são compatíveis com versões anteriores.
+
+Exemplo: ao sair de `1.0.0` para `1.1.0`, uma nova funcionalidade foi 
+adicionada sem quebrar nada. Ao sair de `1.1.0` para `2.0.0`, houve uma 
+mudança que quebra a compatibilidade com a versão anterior.
