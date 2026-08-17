@@ -169,3 +169,9 @@ O número de versão segue o formato: **MAJOR.MINOR.PATCH** (ex: 1.0.0)
 Exemplo: ao sair de `1.0.0` para `1.1.0`, uma nova funcionalidade foi 
 adicionada sem quebrar nada. Ao sair de `1.1.0` para `2.0.0`, houve uma 
 mudança que quebra a compatibilidade com a versão anterior.
+
+## Funcionalidade: Login de Usuários
+
+Esta seção descreve a implementação de um sistema de login, permitindo que 
+usuários cadastrados acessem a plataforma de forma autenticada, com validação 
+de e-mail e senha.
